@@ -124,44 +124,12 @@ import {
       icon: javascript,
     },
     {
-      name: "PHP",
-      icon: php,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "BootStrap",
-      icon: BootStrap,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
-    },
-    {
-      name: "CCNA",
-      icon: CCNA,
-    },
-    {
-      name: "MySQL",
-      icon: mysql,
-    },
-    {
-      name: "Clang",
-      icon: Clang,
-    },
-    {
-      name: "C++",
-      icon: cpp,
     },
     {
       name: "Python",
