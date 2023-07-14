@@ -43,7 +43,7 @@ const ParticlesBg = () => {
                     delay: 0,
                     fullScreen: {
                       enable: true,
-                      zIndex: 11
+                      zIndex: 1
                     },
                     detectRetina: true,
                     duration: 0,
