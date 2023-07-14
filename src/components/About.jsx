@@ -27,11 +27,11 @@ const ServiceCard = ({index,title,icon}) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant(0)}>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introdution</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
-      <motion.p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+      <motion.p variants={fadeIn("","",0.1,1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         Welcome to my website! I'm passionate to work in following domains
       </motion.p>
       <div className="mt-20 flex flex-wrap justify-center gap-10">
