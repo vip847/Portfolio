@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    let mwm = "you have message from: " + form.email + "<br>" + form.message;
+    let mwm = "you have message from: " + form.email + "<br />" + form.message;
     e.preventDefault();
     setLoading(true);
 
@@ -90,6 +90,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              required
             />
           </label>
           <label className='flex flex-col'>
@@ -101,6 +102,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your web address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              required
             />
           </label>
           <label className='flex flex-col'>
@@ -112,6 +114,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder='Tell me, What do you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              required
             />
           </label>
 

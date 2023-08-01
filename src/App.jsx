@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Experience, Hero, Navbar, Tech, Projects, Footer, Copy} from './components';
+import { About, Contact, Experience, Hero, Resume, Navbar, Tech, Projects, Footer, Copy} from './components';
 import ParticlesBg from './components/Particlesbg';
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+        <Resume />
         <About />
         <Experience />
         <Tech />
