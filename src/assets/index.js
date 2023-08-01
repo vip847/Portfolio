@@ -61,7 +61,6 @@ import clock from "./clock.png";
 import rockpaperscissors from "./rockpaperscissors.png";
 import portfolio from "./portfolio.png"
 
-import resume from "./Resume.pdf"
 export {
   logo,
   backend,
@@ -125,6 +124,4 @@ export {
   clock,
   rockpaperscissors,
   portfolio,
-
-  resume,
 };
